@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.autocomplete {
+    position: relative;
+    display: inline-block;
+}
+
+input {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type=text]:active, input[type=text]:focus {
+    border-radius: 10px 10px 0 0;
+}
+
+input[type=text] {
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+}
+
+input[type=submit] {
+    background-color: dodgerblue;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+    border-radius: 0 0 10px 0;
+}
+
+.autocomplete-items div:hover {
+    background-color: #e9e9e9;
+}
+
+.autocomplete-active {
+    background-color: dodgerblue !important;
+    color: #fff
+}
