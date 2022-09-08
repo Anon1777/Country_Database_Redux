@@ -277,3 +277,8 @@ function sendToFile(event){
     var myInput = getElementById("myInput").toLowerCase();
     location.assign("/Page/" + myInput.value + ".html");
 }
+
+function redirect(){
+  var url=document.getElementById('textbox').value
+  window.location.href=url+".html"
+}
