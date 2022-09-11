@@ -271,14 +271,9 @@ function autocomplete(inp, arr){
     });
 }
 
-autocomplete(document.getElementById("myInput"), array);
-
-function sendToFile(event){
-    var myInput = getElementById("myInput").toLowerCase();
-    location.assign("/Page/" + myInput.value + ".html");
-}
+autocomplete(document.getElementById("textbox"), array);
 
 function redirect(){
-  var url=document.getElementById('textbox').value
-  window.location.href=url+".html"
+  var url = document.getElementById('textbox').value;
+  window.location.href = "templates/" + url + ".html";
 }
