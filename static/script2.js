@@ -269,6 +269,11 @@ function autocomplete(inp, arr){
     document.addEventListener("click", function(e){
         closeAllLists(e.target);
     });
+    document.addEventListener("keydown", function(e){
+        if(e.keycode == 13) {
+            closeAllLists(e.target)
+        }
+    })
 }
 
 autocomplete(document.getElementById("textbox"), array);
