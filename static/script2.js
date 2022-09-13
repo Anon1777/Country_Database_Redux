@@ -280,5 +280,5 @@ autocomplete(document.getElementById("textbox"), array);
 
 function redirect(){
   var url = document.getElementById('textbox').value;
-  window.location.href = "templates/" + url + ".html";
+  window.location.href = url + ".html"; // if doesnt work, replace with "templates/" + url + ".html"
 }
