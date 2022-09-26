@@ -280,6 +280,6 @@ autocomplete(document.getElementById("textbox"), array);
 
 function redirect(){
   var url = document.getElementById('textbox').value;
-  var underscore = url.replace(/ /g, "_")
+  var underscore = url.replace(/ /g, "_");
   window.location.href = "templates/" + underscore + ".html";
 }
