@@ -188,5 +188,5 @@ input[type=submit] {
 #BT {
     background-image: linear-gradient(-22.5deg, #FFD608 50%, #E76B00 50%);
     color: white;
-    text-shadow: black 1px 1px;
+    text-shadow: black 1px 1px; 
 }
