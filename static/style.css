@@ -71,7 +71,7 @@ input[type=submit] {
 .box {
     display: inline-block;
     width: 30%;
-    border: 2px solid blackx;
+    border: 2px solid black;
     margin: auto;
 }
 
@@ -92,6 +92,7 @@ input[type=submit] {
 
 #AF {
     background-image: linear-gradient(to right, black 33%, rgb(222, 0, 8) 33%, rgb(222, 0, 8) 67%, rgb(8, 123, 57) 67%);
+    color: white;
 }
 
 #AL {
@@ -100,26 +101,34 @@ input[type=submit] {
 
 #DZ {
     background-image: linear-gradient(to right, rgb(24, 148, 82) 50%, white 50%);
+    color: #DE1818;
 }
 
 #AD {
     background-image: linear-gradient(to right, rgb(16, 24, 240) 33%, yellow 33%, yellow 67%, rgb(231, 0, 49) 67%);
+    color: #DEC694;
+    text-shadow: #7B5A31 -1px -1px, #7B5A31 1px 1px, #7B5A31 1px -1px, #7B5A31 -1px 1px;
 }
 
 #AO {
     background-image: linear-gradient(to bottom, rgb(222, 24, 24) 50%, black 50%);
+    color: #FFEF08;
 }
 
 #AG {
     background: linear-gradient(45deg, rgb(222, 24, 24) 33%, rgba(1, 1, 1, 0) 33%), linear-gradient(-45deg, rgb(222, 24, 24) 33%, rgba(1, 1, 1, 0) 33%), linear-gradient(to bottom, black 35%, rgb(8, 82, 165) 35%, rgb(8, 82, 165) 65%, white 65%);
+    color: #FFDE08;
 }
 
 #AR {
     background-image: linear-gradient(to bottom, #339cc6 33%, white 33%, white 67%, #339cc6 67%);
+    color: #FFEF08;
+    text-shadow: #787B00 1px 1px, #787B00 -1px -1px, #787B00 -1px 1px, #787B00 1px -1px;
 }
 
 #AM {
     background-image: linear-gradient(to bottom, #DE1018 33%, #002984 33%, #002984 67%, #EF7B21 67%);
+    color: white;
 }
 
 #AU {
@@ -127,4 +136,57 @@ input[type=submit] {
     background-size: 50% 50%;
     background-repeat: no-repeat;
     background-color: #08086B;
+    color: white;
+    text-shadow: black 1px 1px;
+}
+
+#AZ {
+    background-image: linear-gradient(to bottom, #002984 33%, #De1818 33%, #DE1818 67%, #109452 67%);
+    color: white;
+}
+
+#BS {
+    background-image: linear-gradient(to bottom left, transparent 50%, black 0), linear-gradient(to bottom right, black 50%, transparent 0), linear-gradient(to bottom, #008CAD 67%, #FFEF31 67%), linear-gradient(to bottom, #FFEF31 33%, #008CAD 33%);
+    background-position: top, bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#BH {
+    background-image: linear-gradient(to right, white 25%, #DE1818 33%)
+}
+
+#BD {
+    background-image: radial-gradient(circle at 45%, #E71029 25%, #087B39 25%);
+}
+
+#BB {
+    background-image: linear-gradient(to right, #000873 33%, #FFDE08 33%, #FFDE08 67%, #000873 67%);
+    text-shadow: #FFDE08 1px 1px, #FFDE08 -1px -1px, #FFDE08 -1px 1px, #FFDE08 1px -1px
+}
+
+#BY {
+    background-image: linear-gradient(to right, white 3%, #DE1818 3%, #DE1818 7%, white 7%, white 10%, transparent 10%), linear-gradient(to bottom, #DE1818 67%, #5AB521 67%);
+}
+
+#BE {
+    background-image: linear-gradient(to right, black 33%, #FFEF08 33%, #FFEF08 67%, #DE1018 67%);
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px, black -1px 1px, black 1px -1px;
+}
+
+#BZ {
+    background-image: linear-gradient(to bottom, #DE0008 10%, #104A9C 10%, #104A9C 90%, #DE0008 90%);
+    color: white;
+}
+
+#BJ {
+    background-image: linear-gradient(to right, #109452 33%, transparent 33%), linear-gradient(to bottom, #FFEF08 50%, #DE1018 50%);
+}
+
+#BT {
+    background-image: linear-gradient(-22.5deg, #FFD608 50%, #E76B00 50%);
+    color: white;
+    text-shadow: black 1px 1px;
 }
