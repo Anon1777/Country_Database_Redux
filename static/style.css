@@ -211,6 +211,8 @@ input[type=submit] {
 #BR {
     background-color: #18945A;
     color: #FFEF08;
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
