@@ -190,3 +190,25 @@ input[type=submit] {
     color: white;
     text-shadow: black 1px 1px; 
 }
+
+#BO {
+    background-image: linear-gradient(to bottom, #DE1018 33%, #F7EF10 33%, #F7EF10 67%, #109452 67%);
+    color: #C66B08;
+}
+
+#BA {
+    background-image: linear-gradient(to left, #000873 26%, transparent 26%), linear-gradient(45deg, #000873 50%, #FFDE08 50%); 
+    color: white;
+    text-shadow: black 1px 1px, black -1px -1px
+}
+
+#BW {
+    background-image: linear-gradient(to bottom, #0873A5 38%, white 38%, white 44%, black 44%, black 56%, white 56%, white 62%, #0873A5 62%);
+    color: #92090A;
+    text-shadow: white 1px 1px, white -1px -1px, white -1px 1px, white 1px -1px
+}
+
+#BR {
+    background-color: #18945A;
+    color: #FFEF08;
+}
