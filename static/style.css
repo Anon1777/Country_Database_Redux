@@ -230,7 +230,10 @@ input[type=submit] {
 
 #BI {
     background-image: linear-gradient(to bottom left, #DE1818 50%, #18945A 50%);
+    color: white
 }
+
+
 
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
