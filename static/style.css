@@ -177,8 +177,8 @@ input[type=submit] {
 }
 
 #BZ {
-    background-image: linear-gradient(to bottom, #DE0008 10%, #104A9C 10%, #104A9C 90%, #DE0008 90%);
-    color: white;
+    background-image: radial-gradient(circle, white 25%, transparent 25%), linear-gradient(to bottom, #DE0008 10%, #104A9C 10%, #104A9C 90%, #DE0008 90%);
+    text-shadow: white 1px 1px, white -1px -1px, white 1px -1px, white -1px 1px;
 }
 
 #BJ {
@@ -211,6 +211,25 @@ input[type=submit] {
 #BR {
     background-color: #18945A;
     color: #FFEF08;
+}
+
+#BN {
+    background-image: linear-gradient(-170deg, #FFEF08 35%, white 35%, white 52%, black 52%, black 65%, #FFEF08 65%);
+    color: #FFEF08;
+    text-shadow: #DE1818 1px 1px, #DE1818 -1px -1px, #DE1818 -1px 1px, #DE1818 1px -1px;
+}
+
+#BG {
+    background-image: linear-gradient(to bottom, white 33%, #109452 33%, #109452 67%, #DE1018 67%);
+}
+
+#BF {
+    background-image: linear-gradient(to bottom, #DE1818 50%, #189452 50%);
+    color: #FFEF08;
+}
+
+#BI {
+    background-image: linear-gradient(to bottom left, #DE1818 50%, #18945A 50%);
 }
 
 #YE {
