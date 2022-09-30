@@ -233,7 +233,22 @@ input[type=submit] {
     color: white
 }
 
+#KH {
+    background-image: linear-gradient(to bottom, #002984 25%, #DE1818 25%, #DE1818 75%, #002984 75%);
+    color: white;
+}
 
+#CM {
+    background-image: linear-gradient(to right, #109452 33%, #DE1818 33%, #DE1818 67%, #FFEF08 67%);
+    color: #FFEF08;
+    text-shadow: black 1px 1px, black 1px -1px, black -1px -1px, black -1px 1px;
+}
+
+#CA {
+    background-image: linear-gradient(to right, #DE1818 27%, white 27%, white 73%, #DE1818 73%);
+    color: #DE1818;
+    text-shadow: white 1px 1px, white 1px -1px, white -1px -1px, white -1px 1px;
+}
 
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
