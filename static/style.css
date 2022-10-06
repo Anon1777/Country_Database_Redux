@@ -273,6 +273,25 @@ input[type=submit] {
     text-shadow: white 1px 1px, white -1px 1px, white -1px -1px, white 1px -1px;
 }
 
+#CN {
+    background-color: #DE1818;
+    color: #FFEF08;
+}
+
+#CO {
+    background-image: linear-gradient(to bottom, #FFEF08 50%, #002984 50%, #002984 75%, #DE1018 75%);
+    color: white;
+    text-shadow: black 1px 1px, black -1px 1px, black -1px -1px, black 1px -1px;
+}
+
+#KM {
+    background-image: linear-gradient(to bottom left, transparent 50%, #18945A 50%), linear-gradient(to top left, transparent 50%, #18945A 50%), linear-gradient(to bottom, #FFDE08 50%, white 50%), linear-gradient(to bottom, #DE1818 50%, #00298C 50%);
+    background-size: 100% 50%;
+    color: white;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
