@@ -292,6 +292,17 @@ input[type=submit] {
     background-repeat: no-repeat;
 }
 
+#CR {
+    background-image: linear-gradient(to bottom, #183984 17%, white 17%, white 33%, #DE1018 33%, #DE1018 67%, white 67%, white 83%, #183984 83%);
+    color: white;
+    text-shadow: #5AAD29 1px 1px, #5AAD29 -1px 1px, #5AAD29 -1px -1px, #5AAD29 1px -1px;
+}
+
+#HR {
+    background-image: linear-gradient(to bottom, #DE1818 33%, white 33%, white 67%, #00298C 67%);
+    color: #DE1818;
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
