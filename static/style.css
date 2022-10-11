@@ -303,6 +303,14 @@ input[type=submit] {
     color: #DE1818;
 }
 
+#CU {
+    background-image: linear-gradient(to bottom left, transparent 50%, #DE1818 50%), linear-gradient(to top left, transparent 50%, #DE1818 50%), linear-gradient(to bottom, #082984 40%, white 40%, white 80%, #082984 80%), linear-gradient(to bottom, #082984 20%, white 20%, white 60%, #082984 60%);
+    background-size: 100% 50%;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
