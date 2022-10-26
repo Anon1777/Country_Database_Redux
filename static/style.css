@@ -312,6 +312,10 @@ input[type=submit] {
     /* terminal hate post */
 }
 
+#CY {
+    background-image: radial-gradient(circle at 50%, #E7AD08 20%, transparent 20%);
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
