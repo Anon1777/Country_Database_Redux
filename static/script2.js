@@ -278,22 +278,17 @@ function autocomplete(inp, arr){
 
 autocomplete(document.getElementById("textbox"), array);
 
-
-
-// function redirect(){
-//   var url = document.getElementById('textbox').value;
-//   var underscore = url.replace(/ /g, "_");
-//   window.location.href = "templates/" + underscore + ".html";
-// }
-
 function redirect(){
     var url = document.getElementById('textbox').value;
     var underscore = url.replace(/ /g, "_");
-    const fs = require("fs");
-    const path = "templates/" + underscore + ".html";
-    if(fs.existsSync(path)){
-      window.location.href = myFile;
-    } else {
-      window.location.href = "../404.html";
-    }
-  }
+    $.ajax({
+        url:'templates/' + underscore + '.html',
+        type:'HEAD',
+        error: function(){
+            window.location.href = '../404.html';
+        },
+        success: function(){
+            window.location.href = 'templates/' + underscore + '.html';
+        }
+    });
+}
