@@ -350,8 +350,23 @@ input[type=text] {
 }
 
 #DO {
-    background-color: #DE1018;
-    background-image: linear-gradient(to right, transparent 48%, white 48%, white 52%, transparent 52%), linear-gradient(to bottom, transparent 46%, white 46%, white 54%, transparent 54%), linear-gradient(22.5deg, #DE1018 23%, transparent 23%), linear-gradient(to right, #002984 48%, transparent 48%), linear-gradient(to top, #002984 46%, transparent 46%);
+    /* background-color: #DE1018;
+    background-image: linear-gradient(to right, transparent 48%, white 48%, white 52%, transparent 52%), linear-gradient(to bottom, transparent 46%, white 46%, white 54%, transparent 54%), linear-gradient(22.5deg, #DE1018 23%, transparent 23%), linear-gradient(to right, #002984 48%, transparent 48%), linear-gradient(to top, #002984 46%, transparent 46%); */
+    
+    background: linear-gradient(45deg, #DE1018 25%, transparent 25%, transparent 75%, #DE1018 75%, #DE1018 0), linear-gradient(45deg, #DE1018 25%, transparent 25%, transparent 75%, #DE1018 75%, #DE1018 0), #002984;
+    background-repeat: repeat, repeat;
+    background-position: 0px 0, 5px 5px;
+    background-size: 10px 10px, 10px 10px;
+    color: white;
+}
+
+#TL {
+    background-image: linear-gradient(to bottom left, transparent 50%, black 50%), linear-gradient(to top left, transparent 50%, black 50%), linear-gradient(to bottom left, transparent 40%, #F7B508 40%), linear-gradient(to top left, transparent 40%, #F7B508 40%);
+    background-size: 100% 50%;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+    background-color: #DE0008;
+    color: white;
 }
 
 #YE {
