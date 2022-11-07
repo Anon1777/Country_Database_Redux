@@ -381,6 +381,13 @@ input[type=text] {
     color: #5AB521;
 }
 
+#GQ {
+    background-image: linear-gradient(to bottom left, transparent 50%, #0852A5 50%), linear-gradient(to top left, transparent 50%, #0852A5 50%), linear-gradient(to bottom, #109452 67%, white 67%), linear-gradient(to bottom, white 33%, #DE1818 33%);
+    background-position: top, bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
