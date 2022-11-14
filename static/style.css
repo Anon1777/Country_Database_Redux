@@ -386,6 +386,14 @@ input[type=text] {
     background-position: top, bottom;
     background-size: 100% 50%;
     background-repeat: no-repeat;
+    color: white;
+}
+
+#ER {
+    background-image: radial-gradient(circle at 25% 100%, #FFEF08 10%, transparent 10%), radial-gradient(circle at 25% 0%, #FFEF08 10%, transparent 10%), linear-gradient(to bottom left, transparent 50%, #DE1818 50%), linear-gradient(to top left, transparent 50%, #DE1818 50%), linear-gradient(to bottom, #087B39 50%, #087B39 50%), linear-gradient(to bottom, #5A84BD 50%, #5A84BD 50%);
+    background-position: top, bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
 }
 
 #YE {
