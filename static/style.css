@@ -396,6 +396,15 @@ input[type=text] {
     background-repeat: no-repeat;
 }
 
+#EE {
+    background-image: linear-gradient(to bottom, #295AA5 33%, black 33%, black 67%, white 67%);
+    color: white;
+}
+
+#SZ {
+    background-image: linear-gradient(to bottom, #0852A5 20%, #FFEF08 20%, #FFEF08 25%, #D60018 25%, #D60018 75%, #FFEF08 75%, #FFEF08 80%, #0852A5 80%);
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
