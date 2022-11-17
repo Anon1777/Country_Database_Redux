@@ -2,9 +2,9 @@
 
 * {
     box-sizing: border-box;
-}
+ }
 
-body {
+ body {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -403,6 +403,24 @@ input[type=text] {
 
 #SZ {
     background-image: linear-gradient(to bottom, #0852A5 20%, #FFEF08 20%, #FFEF08 25%, #D60018 25%, #D60018 75%, #FFEF08 75%, #FFEF08 80%, #0852A5 80%);
+}
+
+#ET {
+    background-image: radial-gradient(circle, #FFEF08 16%, #082984 16%, #082984 24%, transparent 24%), linear-gradient(to bottom, #109452 33%, #FFEF08 33%, #FFEF08 67%, #DE1018 67%);
+    text-shadow: #FFEF08 1px 0px, #FFEF08 -1px 0px;
+}
+
+#FJ {
+    background-image: linear-gradient(to bottom, rgba(1, 1, 1, 0) 33%, white 33%, white 42%, #E71019 42%, #E71019 58%, white 58%, white 67%, rgba(1, 1, 1, 0) 67%), linear-gradient(to right, rgba(1, 1, 1, 0) 33%, white 33%, white 42%, #E71019 42%, #E71019 58%, white 58%, white 67%, rgba(1, 1, 1, 0) 67%), linear-gradient(22.5deg, rgba(1, 1, 1, 0) 33%, white 33%, white 50%, #E71029 50%, #E71029 58%, white 58%, white 67%, rgba(1, 1, 1, 0) 67%), linear-gradient(158.5deg, #08086B 33%, white 33%, white 42%, #E71029 42%, #E71029 50%, white 50%, white 67%, #08086B 67%);
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #0073AD;
+    color: white;
+    text-shadow: black -1px -1px;
+}
+
+#FI {
+    background-image: linear-gradient(to right, transparent 20%, #08186B 20%, #08186B 40%, transparent 40%), linear-gradient(to bottom, transparent 30%, #08186B 30%, #08186B 70%, transparent 70%);
 }
 
 #YE {
