@@ -441,6 +441,37 @@ input[type=text] {
     background-image: linear-gradient(to left, transparent 40%, #DE0008 40%, #DE0008 60%, transparent 60%), linear-gradient(to bottom, transparent 30%, #DE0008 30%, #DE0008 70%, transparent 70%);
 }
 
+#DE {
+    background-image: linear-gradient(to bottom, black 33%, #DE0008 33%, #DE0008 67%, #FFDE08 67%);
+}
+
+#GH {
+    background-image: radial-gradient(circle, black 15%, transparent 15%), linear-gradient(to bottom, #DE0008 33%, #FFEF08 33%, #FFEF08 67%, #109452 67%);
+    color: white;
+    text-shadow: black 1px 0px, black -1px 0px, black 0px 1px, black 0px -1px;
+}
+
+#GR {
+    background-image: linear-gradient(90deg, transparent 15%, #ffffff 15%, #ffffff 22.5%, transparent 22.5%), linear-gradient(transparent 22%, #ffffff 22%, #ffffff 33%, transparent 33%), linear-gradient(#0873A5 50%, #0873A5 50%), linear-gradient(#0d5eaf 50%, #ffffff 50%);
+    background-size: 100% 55%, 36.6% 100%, 36.8% 55%, 100% 22.2%
+}
+
+#GD {
+    background-image: radial-gradient(circle, #DE1818 10%, transparent 10%), linear-gradient(157.5deg, #189452 50%, #FFEF08 50%);
+}
+
+#GT {
+    background-image: linear-gradient(to left, #8CBDDE 33%, white 33%, white 67%, #8CBDDE 67%);
+}
+
+#GW {
+    background-image: linear-gradient(to right, #DE1018 33%, transparent 33%), linear-gradient(to bottom, #FFEF08 50%, #109452 50%);
+}
+
+#GN {
+    background-image: linear-gradient(to right, #DE1018 33%, #FFEF08 33%, #FFEF08 67%, #109452 67%);
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
