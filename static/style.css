@@ -472,6 +472,13 @@ input[type=text] {
     background-image: linear-gradient(to right, #DE1018 33%, #FFEF08 33%, #FFEF08 67%, #109452 67%);
 }
 
+#GY {
+    background-image: linear-gradient(to bottom left, transparent 50%, #DE1018 0), linear-gradient(to bottom right, #DE1018 50%, transparent 0), linear-gradient(to bottom left, transparent 40%, #FFEF08 0), linear-gradient(to bottom right, #FFEF08 60%, transparent 0),  linear-gradient(to bottom, #109452 50%, #109452 50%), linear-gradient(to bottom, #109452 50%, #109452 50%);
+    background-position: top, bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+}
+
 #YE {
     background-image: linear-gradient(to bottom, #DE1018 33%, white 33%, white 67%, black 67%);
 }
