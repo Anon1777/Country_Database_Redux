@@ -87,6 +87,10 @@ input[type=text] {
     padding-right: 20px;
 }
 
+h3 {
+    padding-bottom: 0 !important;
+}
+
 #AT {
     background-image: linear-gradient(rgb(222, 16, 24) 33%, white 33%, white 67%, rgb(222, 16, 24) 67%);
 }
