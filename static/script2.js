@@ -1,4 +1,4 @@
-var array = [
+var countries = [
     "Afghanistan",
     "Albania",
     "Algeria",
@@ -199,6 +199,11 @@ var array = [
     "Zimbabwe",
 ]
 
+var territories = [
+    "Christmas Island",
+    "Christmas Island"
+]
+
 
 function autocomplete(inp, arr){
     var currentFocus;
@@ -277,19 +282,32 @@ function autocomplete(inp, arr){
     })
 }
 
-autocomplete(document.getElementById("textbox"), array);
+autocomplete(document.getElementById("textbox"), countries);
 
 function redirect(){
     var url = document.getElementById('textbox').value;
     var underscore = url.replace(/ /g, "_");
-    $.ajax({
-        url:'templates/' + underscore + '.html',
-        type:'HEAD',
-        error: function(){
-            window.location.href = '../404.html';
-        },
-        success: function(){
-            window.location.href = 'templates/' + underscore + '.html';
-        }
-    });
+    if(url in countries){
+        $.ajax({
+            url:'countries/templates/' + underscore + '.html',
+            type:'HEAD',
+            error: function(){
+                // window.location.href = '../404.html';
+            },
+            success: function(){
+                window.location.href = 'countries/templates/' + underscore + '.html';
+            }
+        });
+    } else if(url in territories){
+        $.ajax({
+            url:'territories/templates/' + underscore + '.html',
+            type:'HEAD',
+            error: function(){
+                // window.location.href = '../404.html';
+            },
+            success: function(){
+                window.location.href = 'territories/templates/' + underscore + '.html';
+            }
+        });
+    }
 }

@@ -1,4 +1,4 @@
-var array = [
+var countries = [
     "Abkhazia",
     "Afghanistan",
     "Alabama",
@@ -391,7 +391,7 @@ function autocomplete(inp, arr){
     });
 }
 
-autocomplete(document.getElementById("myInput"), array);
+autocomplete(document.getElementById("myInput"), countries);
 
 function sendToFile(event){
     var myInput = getElementById("myInput").toLowerCase();
