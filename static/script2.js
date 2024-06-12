@@ -287,27 +287,14 @@ autocomplete(document.getElementById("textbox"), countries);
 function redirect(){
     var url = document.getElementById('textbox').value;
     var underscore = url.replace(/ /g, "_");
-    if(url in countries){
-        $.ajax({
-            url:'countries/templates/' + underscore + '.html',
-            type:'HEAD',
-            error: function(){
-                // window.location.href = '../404.html';
-            },
-            success: function(){
-                window.location.href = 'countries/templates/' + underscore + '.html';
-            }
-        });
-    } else if(url in territories){
-        $.ajax({
-            url:'territories/templates/' + underscore + '.html',
-            type:'HEAD',
-            error: function(){
-                // window.location.href = '../404.html';
-            },
-            success: function(){
-                window.location.href = 'territories/templates/' + underscore + '.html';
-            }
-        });
-    }
+    $.ajax({
+        url:'countries/templates/' + underscore + '.html',
+        type:'HEAD',
+        error: function(){
+            window.location.href = '../404.html';
+        },
+        success: function(){
+            window.location.href = 'countries/templates/' + underscore + '.html';
+        }
+    });
 }
